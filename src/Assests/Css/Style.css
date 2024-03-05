@@ -116,7 +116,6 @@ h2, h3{
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
   }
-   /* Hover animation for underlining links on hover (scaling up) */
    .hover-underline-animation:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
@@ -392,9 +391,6 @@ h2, h3{
 .CallToAction-main{
   overflow: hidden;
   height: 50vh;
-}
-#Portfolio{
-
 }
 .Portfolio-h2{
   overflow-y: hidden;
